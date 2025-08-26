@@ -6,7 +6,7 @@
   "scripts": {
    "dev":"tsx watch src/server.ts",
    "build":"tsup src --out-dir dist",
-   "start": "node dist/server.cjs"
+   "start": "node dist/server.js"
 
   },
   "author": "Antonio A. Alves",
