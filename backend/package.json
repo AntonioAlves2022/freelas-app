@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
    "dev":"tsx watch src/server.ts",
-   "build":"tsup src--output-dir dist",
+   "build":"tsup src --output-dir dist",
    "start": "node dist/server.cjs"
 
   },
